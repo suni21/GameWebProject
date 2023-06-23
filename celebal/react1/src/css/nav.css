@@ -1,0 +1,73 @@
+/* Common Styles */
+h1 {
+    font-size: 40px;
+  }
+  
+  /* Navigation */
+  .nav-container {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .nav-section ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-section ul li {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .nav-section ul li:last-child {
+    margin-right: 2rem;
+  }
+  
+  .nav-btn {
+    margin-left: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    background-color: #fb5547;
+    color: white;
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 7px;
+    cursor: pointer;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .nav-container {
+      justify-content: center;
+    }
+  
+    .nav-section ul {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .nav-section ul li {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  
+    /* Hide the body scrollbar */
+    body {
+      overflow-x: hidden;
+    }
+  
+    /* Adjust the body width to remove the horizontal scrollbar */
+    body,
+    html {
+      width: 100%;
+    }
+  }
+  

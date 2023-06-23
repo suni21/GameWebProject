@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.background-container {
+  background-image: url('../src/assets/Rectangle1.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  height: 40rem
+}
+
+.nav-title {
+ 
+  margin: 7rem 4rem 0;
+  width: 60%;
+  text-align: center;
+}
+
+.nav-body {
+  font-size: 24px;
+  padding-right: 76px;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .background-container {
+    height: auto;
+  }
+}
