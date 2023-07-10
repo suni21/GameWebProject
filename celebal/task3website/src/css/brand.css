@@ -1,0 +1,27 @@
+
+/* .main-container{
+    margin-top: 10px;
+} */
+.main-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-top: 5rem;
+font-size: 30px;
+}
+
+.img-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.img-container img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  object-fit: contain;
+mix-blend-mode:color;
+}

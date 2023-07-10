@@ -1,0 +1,66 @@
+/* Common Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .background-container {
+    background-image: url('./assets/bg4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+  }
+  
+  .head-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 0vh;
+  }
+  
+  .head-container h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter 5s steps(30) 1s infinite;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .title {
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .head-container {
+      height: 20vh;
+    }
+  
+    .title {
+      font-size: 40px;
+      height: 30vh;
+    }
+  }
+  

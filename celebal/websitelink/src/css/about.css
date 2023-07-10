@@ -1,0 +1,48 @@
+.link-style2 {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 2rem;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.link-style2:hover {
+  color: #ee6dbb;
+}
+
+.about-us-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us-container {
+    text-align: justify;
+    padding: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

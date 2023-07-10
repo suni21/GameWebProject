@@ -1,0 +1,19 @@
+
+.contact-container{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+.link-style2{
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 6rem;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.link-style2:hover {
+    color: #EE6DBB; 
+  }
