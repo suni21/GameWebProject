@@ -21,7 +21,7 @@ function App() {
       </BrowserRouter>
       {/* <Navigation /> */}
       {/* <div className="background-container">
-        <div className="title">
+        <div className="title">b 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </div>
         <div className='head-container'>

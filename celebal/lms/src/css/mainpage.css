@@ -7,9 +7,8 @@
 }
 
 .title {
+  
   margin: auto;
-  display: flex;
-  word-wrap: break-word;
   max-width: 30rem;
   font-style: italic;
   font-size: 46px;
@@ -18,67 +17,59 @@
   justify-content: center;
   color: white;
 }
-
-.btn-explore {
-  margin-top: 1rem;
-  display: flex;
-  /* justify-content: center; */
-  margin-left: 6rem;
-  margin-right: auto;
+.explore{
+  text-decoration: none;
 }
-button {
-    border: none;
-    border-radius: 6px;
-    height: 3rem;
-    width: 6rem;
-    font-weight: bold;
-    font-style: italic;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  button::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background-color: rgba(211, 97, 234, 0.3);
-    opacity: 0;
-    transform: scale(0);
-    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
-  }
-  
-  button:hover::before {
-    opacity: 1;
-    transform: scale(1);
-  }
-  
 
-/* button {
+button {
+  display: flex;
+  flex-direction: row;
   border: none;
   border-radius: 6px;
-  height: 3rem;
-  width: 6rem;
+  height: auto;
+  width: 10rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px;
   font-weight: bold;
   font-style: italic;
   cursor: pointer;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: black;
- 
-    color: #e100ff;
-    border: 1.5px solid #e100ff;
-    border-radius: 7px;  
+  position: relative;
+  overflow: hidden;
+}
 
-    background-color: #dea9e5;
-    color: #050801;
-    box-shadow: 0px 0px 5px #ffffff, 0px 0px 25px #e100ff, 0px 0px 50px #e100ff, 0px 0px 100px #e100ff;
-   
-} */
+button::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background-color: rgba(211, 97, 234, 0.3);
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+button:hover::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.btn-explore {
+  margin-left: 6rem;
+  margin-right: auto;
+}
+
+.btn-arrow {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+}
 
 @media (max-width: 768px) {
   .title {
