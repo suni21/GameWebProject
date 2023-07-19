@@ -4,69 +4,119 @@
     font-weight: bold;
     background-color: rgb(228, 27, 27);
     box-shadow: inset 0px -23px 25px 0px rgba(183, 4, 4, 0.17),
-        inset 0px -36px 30px 0px rgba(199, 25, 25, 0.17),
-        inset 0px -79px 40px 0px rgba(199, 25, 25, 0.17),
-        0px 2px 1px rgba(0, 0, 0, 0.06),
-        0px 4px 2px rgba(199, 25, 25, 0.17),
-        0px 8px 4px rgba(199, 25, 25, 0.17),
-        0px 16px 8px rgba(199, 25, 25, 0.17),
-        0px 32px 16px rgba(242, 202, 202, 0.17);
+      inset 0px -36px 30px 0px rgba(199, 25, 25, 0.17),
+      inset 0px -79px 40px 0px rgba(199, 25, 25, 0.17),
+      0px 2px 1px rgba(0, 0, 0, 0.06),
+      0px 4px 2px rgba(199, 25, 25, 0.17),
+      0px 8px 4px rgba(199, 25, 25, 0.17),
+      0px 16px 8px rgba(199, 25, 25, 0.17),
+      0px 32px 16px rgba(242, 202, 202, 0.17);
     padding: 10px;
     border-radius: 10px;
     width: 100px;
     display: flex;
     justify-content: center;
-}
-
-.course-code,
-.course-skill {
+  }
+  
+  main h2 {
+    margin-left: 50px;
+    font-size: 40px;
+  }
+  
+  .course-code {
     display: flex;
-    flex-direction: row;
     overflow-x: scroll;
-    justify-content: space-between;
-    padding: 2rem;
-
-}
-
-.code-title {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    /* display: flex;
-    justify-content: space-between; */
-    /* flex-shrink: 0; */
-    /* width: 300px; */
-    height: 20rem;
-    border-radius: 10px;
-    margin-left: 10px;
     padding: 1.5rem;
-}
-
-.code-title:hover,
-.skill-title:hover {
-    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
-    height: 17rem;
+    gap: 40px;
+    scroll-behavior: smooth;
+    word-wrap: normal;
+  }
+    
+  .code-title {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* height: 17rem; */
     border-radius: 10px;
-    padding: 3rem;
+    padding: 1.5rem;
+    scroll-behavior: smooth;
+    width: 40rem;
+   
+    overflow-wrap: break-word;
+  }
+  .code-title:hover
+{
+    
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* height: 17rem; */
+    border-radius: 10px;
+    padding: 1.6rem;
 }
-
 .code {
-    width: 13rem;
-}
-
-.skill {
-    width: 12rem;
-}
-
-.play-btn {
-    align-items: center;
-}
-
-::-webkit-scrollbar {
-    width: 0;
+    width: 18rem;
+  }
+  .course-skill {
+    display: flex;
+    overflow-x: scroll;
+    padding: 2rem;
+    gap: 20px;
+    scroll-behavior: smooth;
   }
 
-.arr {
+/* .skill-title:hover {
+    height: 15rem;
+    border-radius: 10px;
+    padding: 3rem;
+} */
+
+
+  
+  .skill-title {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 17rem;
+    border-radius: 10px;
+    padding: 2rem;
+    /* width: 40rem;
+    overflow-wrap: break-word; */
+  }
+ 
+  
+  .skill {
+    width: 15rem;
+  }
+
+  .full-stack{
+    display: flex;
+    overflow-x: scroll;
+    padding: 2rem;
+    gap: 20px;
+    scroll-behavior: smooth;
+  }
+  .stack-title{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 17rem;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  
+ 
+  
+  .play-btn {
+    display: flex;
+    align-items: center;
+  }
+  
+  .arr {
     height: 3rem;
     width: 10rem;
+  }
+  
+  .arr.ar-right {
+    position: absolute;
+    right: 0;
     margin-left: auto;
-
-}
+  }
+  
+  /* Hide scrollbar */
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  
