@@ -29,7 +29,7 @@
     padding: 1.5rem;
     gap: 40px;
     scroll-behavior: smooth;
-    word-wrap: normal;
+    /* word-wrap: normal; */
   }
     
   .code-title {
